@@ -68,9 +68,19 @@ Hosted on Bintray: https://bintray.com/aivean/grid2d/grid2d
 
 To add as a maven/gradle dependency: 
 
-* specify the repository url:  https://dl.bintray.com/aivean/grid2d
+* add `jcenter` as a repository
 * add dependency: `"com.aivean.grid2d:grid2d:$VERSION"`
 
+Gradle:
+
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        implementation "com.aivean.grid2d:grid2d:${VERSION}"
+    }
+    
 
 ### Building and testing
 
